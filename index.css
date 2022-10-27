@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main{
+    padding: 100px;
+    margin: 10px;
+    background: rgb(237, 238, 252);
+}
+.base{
+    display: flex;
+    flex-direction: row;
+    background: rgb(253, 232, 235);
+    height: 100%;
+}
+.base1{
+margin-left: 60px;
+
+margin-right: 20px;
+}
+.app{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+.wcs{
+font-size: 60px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 20px;
+}
+.we
+{
+    color: rgb(136, 88, 136);
+}
+.hello{
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(136, 88, 136);
+}
+#email{
+    margin-top: 40px;
+    border: 0.5px solid rgb(165, 165, 165);
+    border-radius: 22px;
+    padding: 16px;
+    background: rgb(253, 232, 235);
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: poppins;
+}
+#submit{
+    padding: 16px;
+    margin-top: 6px;
+    background: rgb(253, 232, 235);
+    font-size: 25px;
+    font-family: poppins;
+    background: rgb(250, 184, 60);
+    margin-left: 80px;
+    border-radius: 15px;
+    color: rgb(170, 170, 107);
+
+}
+.base2{
+    background-image: url(/images/hero.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+}
